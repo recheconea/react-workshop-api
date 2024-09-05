@@ -1,0 +1,36 @@
+import { User } from './domain/user';
+
+const allUsers: User[] = [
+  { id: 1, name: 'John Doe', email: 'john.doe@test.com' },
+  { id: 2, name: 'Jane Doe', email: 'jane.doe@test.com' },
+  { id: 3, name: 'Michael Smith', email: 'michael.smith@test.com' },
+  { id: 4, name: 'Emily Johnson', email: 'emily.johnson@test.com' },
+  { id: 5, name: 'David Brown', email: 'david.brown@test.com' },
+  { id: 6, name: 'Sarah Davis', email: 'sarah.davis@test.com' },
+  { id: 7, name: 'James Wilson', email: 'james.wilson@test.com' },
+  { id: 8, name: 'Linda Moore', email: 'linda.moore@test.com' },
+  { id: 9, name: 'Robert Taylor', email: 'robert.taylor@test.com' },
+  { id: 10, name: 'Patricia Anderson', email: 'patricia.anderson@test.com' },
+  { id: 11, name: 'Charles Thomas', email: 'charles.thomas@test.com' },
+  { id: 12, name: 'Barbara Martinez', email: 'barbara.martinez@test.com' },
+  { id: 13, name: 'Christopher Lee', email: 'christopher.lee@test.com' },
+  { id: 14, name: 'Susan Hernandez', email: 'susan.hernandez@test.com' },
+  { id: 15, name: 'Matthew Walker', email: 'matthew.walker@test.com' },
+  { id: 16, name: 'Jessica Hall', email: 'jessica.hall@test.com' },
+  { id: 17, name: 'Daniel Allen', email: 'daniel.allen@test.com' },
+  { id: 18, name: 'Karen Young', email: 'karen.young@test.com' },
+  { id: 19, name: 'Steven King', email: 'steven.king@test.com' },
+  { id: 20, name: 'Nancy Scott', email: 'nancy.scott@test.com' },
+  { id: 21, name: 'Paul Clark', email: 'paul.clark@test.com' },
+  { id: 22, name: 'Lisa Rodriguez', email: 'lisa.rodriguez@test.com' },
+  { id: 23, name: 'Mark Lewis', email: 'mark.lewis@test.com' },
+  { id: 24, name: 'Sandra Lee', email: 'sandra.lee@test.com' },
+  { id: 25, name: 'Kevin Walker', email: 'kevin.walker@test.com' },
+  { id: 26, name: 'Laura Robinson', email: 'laura.robinson@test.com' },
+  { id: 27, name: 'Brian Perez', email: 'brian.perez@test.com' },
+  { id: 28, name: 'Megan Thompson', email: 'megan.thompson@test.com' },
+  { id: 29, name: 'George Adams', email: 'george.adams@test.com' },
+  { id: 30, name: 'Amy White', email: 'amy.white@test.com' },
+];
+
+export { allUsers };
