@@ -4,6 +4,11 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
+  app.enableCors({
+    origin: ['*'],
+    methods: ['GET', 'POST'],
+    credentials: true,
+  });
   const config = new DocumentBuilder()
     .setTitle('IS2 react workshop api')
     .setDescription('An api for a sample project')
